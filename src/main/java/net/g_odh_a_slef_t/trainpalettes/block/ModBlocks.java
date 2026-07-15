@@ -20,6 +20,7 @@ public class ModBlocks {
     public static final DeferredBlock<Block> FRAMED_WINDOW_MANGROVE_CLEAR_ALL = registerBlock("framed_window_mangrove_clear_all",
             () -> new ModFramedWindowBlock(BlockBehaviour.Properties.of()
                     .strength(2f)
+                    .noOcclusion()
                     .requiresCorrectToolForDrops()
                     .sound(SoundType.GLASS)));
 

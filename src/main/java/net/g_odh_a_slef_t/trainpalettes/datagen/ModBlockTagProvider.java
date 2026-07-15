@@ -1,8 +1,10 @@
 package net.g_odh_a_slef_t.trainpalettes.datagen;
 
 import net.g_odh_a_slef_t.trainpalettes.TrainPalettes;
+import net.g_odh_a_slef_t.trainpalettes.block.ModBlocks;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
+import net.minecraft.tags.BlockTags;
 import net.neoforged.neoforge.common.data.BlockTagsProvider;
 import net.neoforged.neoforge.common.data.ExistingFileHelper;
 import org.jetbrains.annotations.Nullable;
@@ -16,6 +18,7 @@ public class ModBlockTagProvider extends BlockTagsProvider {
 
     @Override
     protected void addTags(HolderLookup.Provider provider) {
-
+        tag(BlockTags.MINEABLE_WITH_AXE)
+                .add(ModBlocks.FRAMED_WINDOW_MANGROVE_CLEAR_ALL.get());
     }
 }

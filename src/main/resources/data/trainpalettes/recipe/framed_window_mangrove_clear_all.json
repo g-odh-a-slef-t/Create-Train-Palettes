@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "G": {
+      "item": "minecraft:glass"
+    },
+    "M": {
+      "item": "minecraft:mangrove_planks"
+    }
+  },
+  "pattern": [
+    " M ",
+    "MGM",
+    " M "
+  ],
+  "result": {
+    "count": 1,
+    "id": "trainpalettes:framed_window_mangrove_clear_all"
+  }
+}

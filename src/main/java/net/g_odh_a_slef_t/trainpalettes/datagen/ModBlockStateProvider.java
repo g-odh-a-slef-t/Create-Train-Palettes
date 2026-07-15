@@ -1,6 +1,7 @@
 package net.g_odh_a_slef_t.trainpalettes.datagen;
 
 import net.g_odh_a_slef_t.trainpalettes.TrainPalettes;
+import net.g_odh_a_slef_t.trainpalettes.block.ModBlocks;
 import net.minecraft.data.PackOutput;
 import net.neoforged.neoforge.client.model.generators.BlockStateProvider;
 import net.neoforged.neoforge.client.model.generators.ModelFile;
@@ -14,7 +15,7 @@ public class ModBlockStateProvider extends BlockStateProvider {
 
     @Override
     protected void registerStatesAndModels() {
-
+        blockItem(ModBlocks.FRAMED_WINDOW_MANGROVE_CLEAR_ALL);
     }
 
     private void blockWithItem(DeferredBlock<?> deferredBlock){
