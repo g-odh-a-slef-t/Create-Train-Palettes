@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "trainpalettes:block/framed_window_mangrove_clear_rul",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "trainpalettes:block/framed_window_mangrove_clear_rul"
+    },
+    "axis=z": {
+      "model": "trainpalettes:block/framed_window_mangrove_clear_rul",
+      "x": 90
+    }
+  }
+}

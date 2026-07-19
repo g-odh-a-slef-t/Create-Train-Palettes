@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "trainpalettes:framed_window_mangrove_clear_ud"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "trainpalettes:framed_window_mangrove_clear_lr"
+  }
+}

@@ -1,5 +1,20 @@
 {
   "values": [
-    "trainpalettes:framed_window_mangrove_clear_all"
+    "trainpalettes:framed_window_mangrove_clear_all",
+    "trainpalettes:framed_window_mangrove_clear_u",
+    "trainpalettes:framed_window_mangrove_clear_d",
+    "trainpalettes:framed_window_mangrove_clear_l",
+    "trainpalettes:framed_window_mangrove_clear_r",
+    "trainpalettes:framed_window_mangrove_clear_ud",
+    "trainpalettes:framed_window_mangrove_clear_lr",
+    "trainpalettes:framed_window_mangrove_clear_ul",
+    "trainpalettes:framed_window_mangrove_clear_ur",
+    "trainpalettes:framed_window_mangrove_clear_dl",
+    "trainpalettes:framed_window_mangrove_clear_dr",
+    "trainpalettes:framed_window_mangrove_clear_rul",
+    "trainpalettes:framed_window_mangrove_clear_rdl",
+    "trainpalettes:framed_window_mangrove_clear_dlu",
+    "trainpalettes:framed_window_mangrove_clear_dru",
+    "trainpalettes:framed_window_mangrove_clear_none"
   ]
 }

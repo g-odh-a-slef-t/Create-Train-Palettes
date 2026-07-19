@@ -21,6 +21,21 @@ public class ModCreativeModeTabs {
                     .title(Component.translatable("creativetab.trainpalettes.mod_tab"))
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModBlocks.FRAMED_WINDOW_MANGROVE_CLEAR_ALL);
+                        output.accept(ModBlocks.FRAMED_WINDOW_MANGROVE_CLEAR_U);
+                        output.accept(ModBlocks.FRAMED_WINDOW_MANGROVE_CLEAR_R);
+                        output.accept(ModBlocks.FRAMED_WINDOW_MANGROVE_CLEAR_D);
+                        output.accept(ModBlocks.FRAMED_WINDOW_MANGROVE_CLEAR_L);
+                        output.accept(ModBlocks.FRAMED_WINDOW_MANGROVE_CLEAR_UD);
+                        output.accept(ModBlocks.FRAMED_WINDOW_MANGROVE_CLEAR_LR);
+                        output.accept(ModBlocks.FRAMED_WINDOW_MANGROVE_CLEAR_UL);
+                        output.accept(ModBlocks.FRAMED_WINDOW_MANGROVE_CLEAR_UR);
+                        output.accept(ModBlocks.FRAMED_WINDOW_MANGROVE_CLEAR_DL);
+                        output.accept(ModBlocks.FRAMED_WINDOW_MANGROVE_CLEAR_DR);
+                        output.accept(ModBlocks.FRAMED_WINDOW_MANGROVE_CLEAR_RUL);
+                        output.accept(ModBlocks.FRAMED_WINDOW_MANGROVE_CLEAR_RDL);
+                        output.accept(ModBlocks.FRAMED_WINDOW_MANGROVE_CLEAR_DRU);
+                        output.accept(ModBlocks.FRAMED_WINDOW_MANGROVE_CLEAR_DLU);
+                        output.accept(ModBlocks.FRAMED_WINDOW_MANGROVE_CLEAR_NONE);
                     })
                     .build());
 

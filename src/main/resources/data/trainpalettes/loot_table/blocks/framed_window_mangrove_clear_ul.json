@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "trainpalettes:framed_window_mangrove_clear_ul"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "trainpalettes:blocks/framed_window_mangrove_clear_ul"
+}

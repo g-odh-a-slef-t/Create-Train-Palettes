@@ -1,5 +1,20 @@
 {
   "block.trainpalettes.framed_window_mangrove_clear_all": "Framed Clear Mangrove Window",
+  "block.trainpalettes.framed_window_mangrove_clear_u": "Framed Clear Mangrove Window",
+  "block.trainpalettes.framed_window_mangrove_clear_d": "Framed Clear Mangrove Window",
+  "block.trainpalettes.framed_window_mangrove_clear_l": "Framed Clear Mangrove Window",
+  "block.trainpalettes.framed_window_mangrove_clear_r": "Framed Clear Mangrove Window",
+  "block.trainpalettes.framed_window_mangrove_clear_ud": "Framed Clear Mangrove Window",
+  "block.trainpalettes.framed_window_mangrove_clear_lr": "Framed Clear Mangrove Window",
+  "block.trainpalettes.framed_window_mangrove_clear_ur": "Framed Clear Mangrove Window",
+  "block.trainpalettes.framed_window_mangrove_clear_ul": "Framed Clear Mangrove Window",
+  "block.trainpalettes.framed_window_mangrove_clear_dr": "Framed Clear Mangrove Window",
+  "block.trainpalettes.framed_window_mangrove_clear_dl": "Framed Clear Mangrove Window",
+  "block.trainpalettes.framed_window_mangrove_clear_none": "Framed Clear Mangrove Window",
+  "block.trainpalettes.framed_window_mangrove_clear_rul": "Framed Clear Mangrove Window",
+  "block.trainpalettes.framed_window_mangrove_clear_rdl": "Framed Clear Mangrove Window",
+  "block.trainpalettes.framed_window_mangrove_clear_dru": "Framed Clear Mangrove Window",
+  "block.trainpalettes.framed_window_mangrove_clear_dlu": "Framed Clear Mangrove Window",
 
   "creativetab.trainpalettes.mod_tab": "Create: Train Palettes"
 }

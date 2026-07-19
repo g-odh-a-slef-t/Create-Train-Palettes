@@ -16,6 +16,21 @@ public class ModBlockStateProvider extends BlockStateProvider {
     @Override
     protected void registerStatesAndModels() {
         blockItem(ModBlocks.FRAMED_WINDOW_MANGROVE_CLEAR_ALL);
+        blockItem(ModBlocks.FRAMED_WINDOW_MANGROVE_CLEAR_U);
+        blockItem(ModBlocks.FRAMED_WINDOW_MANGROVE_CLEAR_D);
+        blockItem(ModBlocks.FRAMED_WINDOW_MANGROVE_CLEAR_L);
+        blockItem(ModBlocks.FRAMED_WINDOW_MANGROVE_CLEAR_R);
+        blockItem(ModBlocks.FRAMED_WINDOW_MANGROVE_CLEAR_UD);
+        blockItem(ModBlocks.FRAMED_WINDOW_MANGROVE_CLEAR_LR);
+        blockItem(ModBlocks.FRAMED_WINDOW_MANGROVE_CLEAR_UL);
+        blockItem(ModBlocks.FRAMED_WINDOW_MANGROVE_CLEAR_UR);
+        blockItem(ModBlocks.FRAMED_WINDOW_MANGROVE_CLEAR_DL);
+        blockItem(ModBlocks.FRAMED_WINDOW_MANGROVE_CLEAR_DR);
+        blockItem(ModBlocks.FRAMED_WINDOW_MANGROVE_CLEAR_RUL);
+        blockItem(ModBlocks.FRAMED_WINDOW_MANGROVE_CLEAR_RDL);
+        blockItem(ModBlocks.FRAMED_WINDOW_MANGROVE_CLEAR_DRU);
+        blockItem(ModBlocks.FRAMED_WINDOW_MANGROVE_CLEAR_DLU);
+        blockItem(ModBlocks.FRAMED_WINDOW_MANGROVE_CLEAR_NONE);
     }
 
     private void blockWithItem(DeferredBlock<?> deferredBlock){
