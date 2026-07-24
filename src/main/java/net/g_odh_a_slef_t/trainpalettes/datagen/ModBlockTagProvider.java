@@ -2,6 +2,7 @@ package net.g_odh_a_slef_t.trainpalettes.datagen;
 
 import net.g_odh_a_slef_t.trainpalettes.TrainPalettes;
 import net.g_odh_a_slef_t.trainpalettes.block.ModBlocks;
+import net.g_odh_a_slef_t.trainpalettes.util.ModTags;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.tags.BlockTags;
@@ -19,6 +20,24 @@ public class ModBlockTagProvider extends BlockTagsProvider {
     @Override
     protected void addTags(HolderLookup.Provider provider) {
         tag(BlockTags.MINEABLE_WITH_AXE)
+                .add(ModBlocks.FRAMED_WINDOW_MANGROVE_CLEAR_ALL.get())
+                .add(ModBlocks.FRAMED_WINDOW_MANGROVE_CLEAR_U.get())
+                .add(ModBlocks.FRAMED_WINDOW_MANGROVE_CLEAR_D.get())
+                .add(ModBlocks.FRAMED_WINDOW_MANGROVE_CLEAR_L.get())
+                .add(ModBlocks.FRAMED_WINDOW_MANGROVE_CLEAR_R.get())
+                .add(ModBlocks.FRAMED_WINDOW_MANGROVE_CLEAR_UD.get())
+                .add(ModBlocks.FRAMED_WINDOW_MANGROVE_CLEAR_LR.get())
+                .add(ModBlocks.FRAMED_WINDOW_MANGROVE_CLEAR_UL.get())
+                .add(ModBlocks.FRAMED_WINDOW_MANGROVE_CLEAR_UR.get())
+                .add(ModBlocks.FRAMED_WINDOW_MANGROVE_CLEAR_DL.get())
+                .add(ModBlocks.FRAMED_WINDOW_MANGROVE_CLEAR_DR.get())
+                .add(ModBlocks.FRAMED_WINDOW_MANGROVE_CLEAR_RUL.get())
+                .add(ModBlocks.FRAMED_WINDOW_MANGROVE_CLEAR_RDL.get())
+                .add(ModBlocks.FRAMED_WINDOW_MANGROVE_CLEAR_DLU.get())
+                .add(ModBlocks.FRAMED_WINDOW_MANGROVE_CLEAR_DRU.get())
+                .add(ModBlocks.FRAMED_WINDOW_MANGROVE_CLEAR_NONE.get());
+
+        tag(ModTags.Blocks.WINDOW_BLOCKS)
                 .add(ModBlocks.FRAMED_WINDOW_MANGROVE_CLEAR_ALL.get())
                 .add(ModBlocks.FRAMED_WINDOW_MANGROVE_CLEAR_U.get())
                 .add(ModBlocks.FRAMED_WINDOW_MANGROVE_CLEAR_D.get())
