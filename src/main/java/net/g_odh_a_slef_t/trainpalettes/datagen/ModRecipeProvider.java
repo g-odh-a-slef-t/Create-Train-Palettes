@@ -16,76 +16,32 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
 
     @Override
     protected void buildRecipes(RecipeOutput recipeOutput) {
-//        ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.FRAMED_WINDOW_MANGROVE_CLEAR_ALL.get())
-//                .pattern(" M ")
-//                .pattern("MGM")
-//                .pattern(" M ")
-//                .define('M', Blocks.MANGROVE_PLANKS)
-//                .define('G', Blocks.GLASS)
-//                .unlockedBy("has_mangrove_planks", has(Blocks.MANGROVE_PLANKS))
-//                .save(recipeOutput);
-        ShapelessRecipeBuilder.shapeless(RecipeCategory.BUILDING_BLOCKS, ModBlocks.FRAMED_WINDOW_MANGROVE_CLEAR_U.get())
-                .requires(ModBlocks.FRAMED_WINDOW_MANGROVE_CLEAR_ALL.get())
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.BUILDING_BLOCKS, ModBlocks.FRAMED_WINDOW_MANGROVE_CLEAR_1.get())
+                .requires(Blocks.MANGROVE_PLANKS)
+                .requires(Blocks.GLASS)
                 .unlockedBy("has_mangrove_planks", has(Blocks.MANGROVE_PLANKS))
                 .save(recipeOutput);
-        ShapelessRecipeBuilder.shapeless(RecipeCategory.BUILDING_BLOCKS, ModBlocks.FRAMED_WINDOW_MANGROVE_CLEAR_R.get())
-                .requires(ModBlocks.FRAMED_WINDOW_MANGROVE_CLEAR_U.get())
+        ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.FRAMED_WINDOW_MANGROVE_CLEAR_2_PARA.get())
+                .pattern(" M ")
+                .pattern(" G ")
+                .pattern(" M ")
+                .define('M', Blocks.MANGROVE_PLANKS)
+                .define('G', Blocks.GLASS)
                 .unlockedBy("has_mangrove_planks", has(Blocks.MANGROVE_PLANKS))
                 .save(recipeOutput);
-        ShapelessRecipeBuilder.shapeless(RecipeCategory.BUILDING_BLOCKS, ModBlocks.FRAMED_WINDOW_MANGROVE_CLEAR_D.get())
-                .requires(ModBlocks.FRAMED_WINDOW_MANGROVE_CLEAR_R.get())
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.BUILDING_BLOCKS, ModBlocks.FRAMED_WINDOW_MANGROVE_CLEAR_2_CORNER.get())
+                .requires(Blocks.MANGROVE_PLANKS, 2)
+                .requires(Blocks.GLASS)
                 .unlockedBy("has_mangrove_planks", has(Blocks.MANGROVE_PLANKS))
                 .save(recipeOutput);
-        ShapelessRecipeBuilder.shapeless(RecipeCategory.BUILDING_BLOCKS, ModBlocks.FRAMED_WINDOW_MANGROVE_CLEAR_L.get())
-                .requires(ModBlocks.FRAMED_WINDOW_MANGROVE_CLEAR_D.get())
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.BUILDING_BLOCKS, ModBlocks.FRAMED_WINDOW_MANGROVE_CLEAR_3.get())
+                .requires(Blocks.MANGROVE_PLANKS, 3)
+                .requires(Blocks.GLASS)
                 .unlockedBy("has_mangrove_planks", has(Blocks.MANGROVE_PLANKS))
                 .save(recipeOutput);
-        ShapelessRecipeBuilder.shapeless(RecipeCategory.BUILDING_BLOCKS, ModBlocks.FRAMED_WINDOW_MANGROVE_CLEAR_UD.get())
-                .requires(ModBlocks.FRAMED_WINDOW_MANGROVE_CLEAR_L.get())
-                .unlockedBy("has_mangrove_planks", has(Blocks.MANGROVE_PLANKS))
-                .save(recipeOutput);
-        ShapelessRecipeBuilder.shapeless(RecipeCategory.BUILDING_BLOCKS, ModBlocks.FRAMED_WINDOW_MANGROVE_CLEAR_LR.get())
-                .requires(ModBlocks.FRAMED_WINDOW_MANGROVE_CLEAR_UD.get())
-                .unlockedBy("has_mangrove_planks", has(Blocks.MANGROVE_PLANKS))
-                .save(recipeOutput);
-        ShapelessRecipeBuilder.shapeless(RecipeCategory.BUILDING_BLOCKS, ModBlocks.FRAMED_WINDOW_MANGROVE_CLEAR_UL.get())
-                .requires(ModBlocks.FRAMED_WINDOW_MANGROVE_CLEAR_LR.get())
-                .unlockedBy("has_mangrove_planks", has(Blocks.MANGROVE_PLANKS))
-                .save(recipeOutput);
-        ShapelessRecipeBuilder.shapeless(RecipeCategory.BUILDING_BLOCKS, ModBlocks.FRAMED_WINDOW_MANGROVE_CLEAR_UR.get())
-                .requires(ModBlocks.FRAMED_WINDOW_MANGROVE_CLEAR_UL.get())
-                .unlockedBy("has_mangrove_planks", has(Blocks.MANGROVE_PLANKS))
-                .save(recipeOutput);
-        ShapelessRecipeBuilder.shapeless(RecipeCategory.BUILDING_BLOCKS, ModBlocks.FRAMED_WINDOW_MANGROVE_CLEAR_DL.get())
-                .requires(ModBlocks.FRAMED_WINDOW_MANGROVE_CLEAR_UR.get())
-                .unlockedBy("has_mangrove_planks", has(Blocks.MANGROVE_PLANKS))
-                .save(recipeOutput);
-        ShapelessRecipeBuilder.shapeless(RecipeCategory.BUILDING_BLOCKS, ModBlocks.FRAMED_WINDOW_MANGROVE_CLEAR_DR.get())
-                .requires(ModBlocks.FRAMED_WINDOW_MANGROVE_CLEAR_DL.get())
-                .unlockedBy("has_mangrove_planks", has(Blocks.MANGROVE_PLANKS))
-                .save(recipeOutput);
-        ShapelessRecipeBuilder.shapeless(RecipeCategory.BUILDING_BLOCKS, ModBlocks.FRAMED_WINDOW_MANGROVE_CLEAR_RUL.get())
-                .requires(ModBlocks.FRAMED_WINDOW_MANGROVE_CLEAR_DR.get())
-                .unlockedBy("has_mangrove_planks", has(Blocks.MANGROVE_PLANKS))
-                .save(recipeOutput);
-        ShapelessRecipeBuilder.shapeless(RecipeCategory.BUILDING_BLOCKS, ModBlocks.FRAMED_WINDOW_MANGROVE_CLEAR_RDL.get())
-                .requires(ModBlocks.FRAMED_WINDOW_MANGROVE_CLEAR_RUL.get())
-                .unlockedBy("has_mangrove_planks", has(Blocks.MANGROVE_PLANKS))
-                .save(recipeOutput);
-        ShapelessRecipeBuilder.shapeless(RecipeCategory.BUILDING_BLOCKS, ModBlocks.FRAMED_WINDOW_MANGROVE_CLEAR_DRU.get())
-                .requires(ModBlocks.FRAMED_WINDOW_MANGROVE_CLEAR_RDL.get())
-                .unlockedBy("has_mangrove_planks", has(Blocks.MANGROVE_PLANKS))
-                .save(recipeOutput);
-        ShapelessRecipeBuilder.shapeless(RecipeCategory.BUILDING_BLOCKS, ModBlocks.FRAMED_WINDOW_MANGROVE_CLEAR_DLU.get())
-                .requires(ModBlocks.FRAMED_WINDOW_MANGROVE_CLEAR_DRU.get())
-                .unlockedBy("has_mangrove_planks", has(Blocks.MANGROVE_PLANKS))
-                .save(recipeOutput);
-        ShapelessRecipeBuilder.shapeless(RecipeCategory.BUILDING_BLOCKS, ModBlocks.FRAMED_WINDOW_MANGROVE_CLEAR_NONE.get())
-                .requires(ModBlocks.FRAMED_WINDOW_MANGROVE_CLEAR_DLU.get())
-                .unlockedBy("has_mangrove_planks", has(Blocks.MANGROVE_PLANKS))
-                .save(recipeOutput);
-        ShapelessRecipeBuilder.shapeless(RecipeCategory.BUILDING_BLOCKS, ModBlocks.FRAMED_WINDOW_MANGROVE_CLEAR_ALL.get())
-                .requires(ModBlocks.FRAMED_WINDOW_MANGROVE_CLEAR_NONE.get())
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.BUILDING_BLOCKS, ModBlocks.FRAMED_WINDOW_MANGROVE_CLEAR_4.get())
+                .requires(Blocks.MANGROVE_PLANKS, 4)
+                .requires(Blocks.GLASS)
                 .unlockedBy("has_mangrove_planks", has(Blocks.MANGROVE_PLANKS))
                 .save(recipeOutput);
     }

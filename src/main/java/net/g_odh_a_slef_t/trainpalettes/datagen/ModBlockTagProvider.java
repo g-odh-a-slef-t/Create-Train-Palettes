@@ -20,39 +20,19 @@ public class ModBlockTagProvider extends BlockTagsProvider {
     @Override
     protected void addTags(HolderLookup.Provider provider) {
         tag(BlockTags.MINEABLE_WITH_AXE)
-                .add(ModBlocks.FRAMED_WINDOW_MANGROVE_CLEAR_ALL.get())
-                .add(ModBlocks.FRAMED_WINDOW_MANGROVE_CLEAR_U.get())
-                .add(ModBlocks.FRAMED_WINDOW_MANGROVE_CLEAR_D.get())
-                .add(ModBlocks.FRAMED_WINDOW_MANGROVE_CLEAR_L.get())
-                .add(ModBlocks.FRAMED_WINDOW_MANGROVE_CLEAR_R.get())
-                .add(ModBlocks.FRAMED_WINDOW_MANGROVE_CLEAR_UD.get())
-                .add(ModBlocks.FRAMED_WINDOW_MANGROVE_CLEAR_LR.get())
-                .add(ModBlocks.FRAMED_WINDOW_MANGROVE_CLEAR_UL.get())
-                .add(ModBlocks.FRAMED_WINDOW_MANGROVE_CLEAR_UR.get())
-                .add(ModBlocks.FRAMED_WINDOW_MANGROVE_CLEAR_DL.get())
-                .add(ModBlocks.FRAMED_WINDOW_MANGROVE_CLEAR_DR.get())
-                .add(ModBlocks.FRAMED_WINDOW_MANGROVE_CLEAR_RUL.get())
-                .add(ModBlocks.FRAMED_WINDOW_MANGROVE_CLEAR_RDL.get())
-                .add(ModBlocks.FRAMED_WINDOW_MANGROVE_CLEAR_DLU.get())
-                .add(ModBlocks.FRAMED_WINDOW_MANGROVE_CLEAR_DRU.get())
-                .add(ModBlocks.FRAMED_WINDOW_MANGROVE_CLEAR_NONE.get());
+                .add(ModBlocks.FRAMED_WINDOW_GLASS_CLEAR.get())
+                .add(ModBlocks.FRAMED_WINDOW_MANGROVE_CLEAR_1.get())
+                .add(ModBlocks.FRAMED_WINDOW_MANGROVE_CLEAR_2_PARA.get())
+                .add(ModBlocks.FRAMED_WINDOW_MANGROVE_CLEAR_2_CORNER.get())
+                .add(ModBlocks.FRAMED_WINDOW_MANGROVE_CLEAR_3.get())
+                .add(ModBlocks.FRAMED_WINDOW_MANGROVE_CLEAR_4.get());
 
         tag(ModTags.Blocks.WINDOW_BLOCKS)
-                .add(ModBlocks.FRAMED_WINDOW_MANGROVE_CLEAR_ALL.get())
-                .add(ModBlocks.FRAMED_WINDOW_MANGROVE_CLEAR_U.get())
-                .add(ModBlocks.FRAMED_WINDOW_MANGROVE_CLEAR_D.get())
-                .add(ModBlocks.FRAMED_WINDOW_MANGROVE_CLEAR_L.get())
-                .add(ModBlocks.FRAMED_WINDOW_MANGROVE_CLEAR_R.get())
-                .add(ModBlocks.FRAMED_WINDOW_MANGROVE_CLEAR_UD.get())
-                .add(ModBlocks.FRAMED_WINDOW_MANGROVE_CLEAR_LR.get())
-                .add(ModBlocks.FRAMED_WINDOW_MANGROVE_CLEAR_UL.get())
-                .add(ModBlocks.FRAMED_WINDOW_MANGROVE_CLEAR_UR.get())
-                .add(ModBlocks.FRAMED_WINDOW_MANGROVE_CLEAR_DL.get())
-                .add(ModBlocks.FRAMED_WINDOW_MANGROVE_CLEAR_DR.get())
-                .add(ModBlocks.FRAMED_WINDOW_MANGROVE_CLEAR_RUL.get())
-                .add(ModBlocks.FRAMED_WINDOW_MANGROVE_CLEAR_RDL.get())
-                .add(ModBlocks.FRAMED_WINDOW_MANGROVE_CLEAR_DLU.get())
-                .add(ModBlocks.FRAMED_WINDOW_MANGROVE_CLEAR_DRU.get())
-                .add(ModBlocks.FRAMED_WINDOW_MANGROVE_CLEAR_NONE.get());
+                .add(ModBlocks.FRAMED_WINDOW_GLASS_CLEAR.get())
+                .add(ModBlocks.FRAMED_WINDOW_MANGROVE_CLEAR_1.get())
+                .add(ModBlocks.FRAMED_WINDOW_MANGROVE_CLEAR_2_PARA.get())
+                .add(ModBlocks.FRAMED_WINDOW_MANGROVE_CLEAR_2_CORNER.get())
+                .add(ModBlocks.FRAMED_WINDOW_MANGROVE_CLEAR_3.get())
+                .add(ModBlocks.FRAMED_WINDOW_MANGROVE_CLEAR_4.get());
     }
 }

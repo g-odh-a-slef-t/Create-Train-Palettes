@@ -16,22 +16,12 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
 
     @Override
     protected void generate() {
-        dropSelf(ModBlocks.FRAMED_WINDOW_MANGROVE_CLEAR_ALL.get());
-        dropSelf(ModBlocks.FRAMED_WINDOW_MANGROVE_CLEAR_U.get());
-        dropSelf(ModBlocks.FRAMED_WINDOW_MANGROVE_CLEAR_D.get());
-        dropSelf(ModBlocks.FRAMED_WINDOW_MANGROVE_CLEAR_L.get());
-        dropSelf(ModBlocks.FRAMED_WINDOW_MANGROVE_CLEAR_R.get());
-        dropSelf(ModBlocks.FRAMED_WINDOW_MANGROVE_CLEAR_UD.get());
-        dropSelf(ModBlocks.FRAMED_WINDOW_MANGROVE_CLEAR_LR.get());
-        dropSelf(ModBlocks.FRAMED_WINDOW_MANGROVE_CLEAR_UL.get());
-        dropSelf(ModBlocks.FRAMED_WINDOW_MANGROVE_CLEAR_UR.get());
-        dropSelf(ModBlocks.FRAMED_WINDOW_MANGROVE_CLEAR_DL.get());
-        dropSelf(ModBlocks.FRAMED_WINDOW_MANGROVE_CLEAR_DR.get());
-        dropSelf(ModBlocks.FRAMED_WINDOW_MANGROVE_CLEAR_RUL.get());
-        dropSelf(ModBlocks.FRAMED_WINDOW_MANGROVE_CLEAR_RDL.get());
-        dropSelf(ModBlocks.FRAMED_WINDOW_MANGROVE_CLEAR_DRU.get());
-        dropSelf(ModBlocks.FRAMED_WINDOW_MANGROVE_CLEAR_DLU.get());
-        dropSelf(ModBlocks.FRAMED_WINDOW_MANGROVE_CLEAR_NONE.get());
+        dropSelf(ModBlocks.FRAMED_WINDOW_GLASS_CLEAR.get());
+        dropSelf(ModBlocks.FRAMED_WINDOW_MANGROVE_CLEAR_1.get());
+        dropSelf(ModBlocks.FRAMED_WINDOW_MANGROVE_CLEAR_2_PARA.get());
+        dropSelf(ModBlocks.FRAMED_WINDOW_MANGROVE_CLEAR_2_CORNER.get());
+        dropSelf(ModBlocks.FRAMED_WINDOW_MANGROVE_CLEAR_3.get());
+        dropSelf(ModBlocks.FRAMED_WINDOW_MANGROVE_CLEAR_4.get());
     }
 
     @Override

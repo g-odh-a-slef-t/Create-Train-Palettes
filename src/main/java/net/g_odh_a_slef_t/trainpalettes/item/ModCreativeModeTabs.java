@@ -17,25 +17,15 @@ public class ModCreativeModeTabs {
 
     public static final Supplier<CreativeModeTab> MOD_TAB = CREATIVE_MODE_TAB.register("mod_tab",
             () -> CreativeModeTab.builder()
-                    .icon(() -> new ItemStack(ModBlocks.FRAMED_WINDOW_MANGROVE_CLEAR_ALL.get()))
+                    .icon(() -> new ItemStack(ModBlocks.FRAMED_WINDOW_MANGROVE_CLEAR_4.get()))
                     .title(Component.translatable("creativetab.trainpalettes.mod_tab"))
                     .displayItems((itemDisplayParameters, output) -> {
-                        output.accept(ModBlocks.FRAMED_WINDOW_MANGROVE_CLEAR_ALL);
-                        output.accept(ModBlocks.FRAMED_WINDOW_MANGROVE_CLEAR_U);
-                        output.accept(ModBlocks.FRAMED_WINDOW_MANGROVE_CLEAR_R);
-                        output.accept(ModBlocks.FRAMED_WINDOW_MANGROVE_CLEAR_D);
-                        output.accept(ModBlocks.FRAMED_WINDOW_MANGROVE_CLEAR_L);
-                        output.accept(ModBlocks.FRAMED_WINDOW_MANGROVE_CLEAR_UD);
-                        output.accept(ModBlocks.FRAMED_WINDOW_MANGROVE_CLEAR_LR);
-                        output.accept(ModBlocks.FRAMED_WINDOW_MANGROVE_CLEAR_UL);
-                        output.accept(ModBlocks.FRAMED_WINDOW_MANGROVE_CLEAR_UR);
-                        output.accept(ModBlocks.FRAMED_WINDOW_MANGROVE_CLEAR_DL);
-                        output.accept(ModBlocks.FRAMED_WINDOW_MANGROVE_CLEAR_DR);
-                        output.accept(ModBlocks.FRAMED_WINDOW_MANGROVE_CLEAR_RUL);
-                        output.accept(ModBlocks.FRAMED_WINDOW_MANGROVE_CLEAR_RDL);
-                        output.accept(ModBlocks.FRAMED_WINDOW_MANGROVE_CLEAR_DRU);
-                        output.accept(ModBlocks.FRAMED_WINDOW_MANGROVE_CLEAR_DLU);
-                        output.accept(ModBlocks.FRAMED_WINDOW_MANGROVE_CLEAR_NONE);
+                        output.accept(ModBlocks.FRAMED_WINDOW_GLASS_CLEAR);
+                        output.accept(ModBlocks.FRAMED_WINDOW_MANGROVE_CLEAR_1);
+                        output.accept(ModBlocks.FRAMED_WINDOW_MANGROVE_CLEAR_2_PARA);
+                        output.accept(ModBlocks.FRAMED_WINDOW_MANGROVE_CLEAR_2_CORNER);
+                        output.accept(ModBlocks.FRAMED_WINDOW_MANGROVE_CLEAR_3);
+                        output.accept(ModBlocks.FRAMED_WINDOW_MANGROVE_CLEAR_4);
                     })
                     .build());
 

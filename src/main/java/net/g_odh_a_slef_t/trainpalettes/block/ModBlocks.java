@@ -17,37 +17,17 @@ import java.util.function.Supplier;
 public class ModBlocks {
     public static final DeferredRegister.Blocks BLOCKS = DeferredRegister.createBlocks(TrainPalettes.MODID);
 
-    public static final DeferredBlock<Block> FRAMED_WINDOW_MANGROVE_CLEAR_ALL = registerBlock("framed_window_mangrove_clear_all",
+    public static final DeferredBlock<Block> FRAMED_WINDOW_GLASS_CLEAR = registerBlock("framed_window_glass_clear",
             () -> new ModFramedWindowBlock(BlockBehaviour.Properties.of()));
-    public static final DeferredBlock<Block> FRAMED_WINDOW_MANGROVE_CLEAR_U = registerBlock("framed_window_mangrove_clear_u",
+    public static final DeferredBlock<Block> FRAMED_WINDOW_MANGROVE_CLEAR_1 = registerBlock("framed_window_mangrove_clear_1",
             () -> new ModFramedWindowBlock(BlockBehaviour.Properties.of()));
-    public static final DeferredBlock<Block> FRAMED_WINDOW_MANGROVE_CLEAR_D = registerBlock("framed_window_mangrove_clear_d",
+    public static final DeferredBlock<Block> FRAMED_WINDOW_MANGROVE_CLEAR_2_PARA = registerBlock("framed_window_mangrove_clear_2_para",
             () -> new ModFramedWindowBlock(BlockBehaviour.Properties.of()));
-    public static final DeferredBlock<Block> FRAMED_WINDOW_MANGROVE_CLEAR_L = registerBlock("framed_window_mangrove_clear_l",
+    public static final DeferredBlock<Block> FRAMED_WINDOW_MANGROVE_CLEAR_2_CORNER = registerBlock("framed_window_mangrove_clear_2_corner",
             () -> new ModFramedWindowBlock(BlockBehaviour.Properties.of()));
-    public static final DeferredBlock<Block> FRAMED_WINDOW_MANGROVE_CLEAR_R = registerBlock("framed_window_mangrove_clear_r",
+    public static final DeferredBlock<Block> FRAMED_WINDOW_MANGROVE_CLEAR_3 = registerBlock("framed_window_mangrove_clear_3",
             () -> new ModFramedWindowBlock(BlockBehaviour.Properties.of()));
-    public static final DeferredBlock<Block> FRAMED_WINDOW_MANGROVE_CLEAR_UD = registerBlock("framed_window_mangrove_clear_ud",
-            () -> new ModFramedWindowBlock(BlockBehaviour.Properties.of()));
-    public static final DeferredBlock<Block> FRAMED_WINDOW_MANGROVE_CLEAR_LR = registerBlock("framed_window_mangrove_clear_lr",
-            () -> new ModFramedWindowBlock(BlockBehaviour.Properties.of()));
-    public static final DeferredBlock<Block> FRAMED_WINDOW_MANGROVE_CLEAR_UL = registerBlock("framed_window_mangrove_clear_ul",
-            () -> new ModFramedWindowBlock(BlockBehaviour.Properties.of()));
-    public static final DeferredBlock<Block> FRAMED_WINDOW_MANGROVE_CLEAR_UR = registerBlock("framed_window_mangrove_clear_ur",
-            () -> new ModFramedWindowBlock(BlockBehaviour.Properties.of()));
-    public static final DeferredBlock<Block> FRAMED_WINDOW_MANGROVE_CLEAR_DL = registerBlock("framed_window_mangrove_clear_dl",
-            () -> new ModFramedWindowBlock(BlockBehaviour.Properties.of()));
-    public static final DeferredBlock<Block> FRAMED_WINDOW_MANGROVE_CLEAR_DR = registerBlock("framed_window_mangrove_clear_dr",
-            () -> new ModFramedWindowBlock(BlockBehaviour.Properties.of()));
-    public static final DeferredBlock<Block> FRAMED_WINDOW_MANGROVE_CLEAR_RUL = registerBlock("framed_window_mangrove_clear_rul",
-            () -> new ModFramedWindowBlock(BlockBehaviour.Properties.of()));
-    public static final DeferredBlock<Block> FRAMED_WINDOW_MANGROVE_CLEAR_RDL = registerBlock("framed_window_mangrove_clear_rdl",
-            () -> new ModFramedWindowBlock(BlockBehaviour.Properties.of()));
-    public static final DeferredBlock<Block> FRAMED_WINDOW_MANGROVE_CLEAR_DRU = registerBlock("framed_window_mangrove_clear_dru",
-            () -> new ModFramedWindowBlock(BlockBehaviour.Properties.of()));
-    public static final DeferredBlock<Block> FRAMED_WINDOW_MANGROVE_CLEAR_DLU = registerBlock("framed_window_mangrove_clear_dlu",
-            () -> new ModFramedWindowBlock(BlockBehaviour.Properties.of()));
-    public static final DeferredBlock<Block> FRAMED_WINDOW_MANGROVE_CLEAR_NONE = registerBlock("framed_window_mangrove_clear_none",
+    public static final DeferredBlock<Block> FRAMED_WINDOW_MANGROVE_CLEAR_4 = registerBlock("framed_window_mangrove_clear_4",
             () -> new ModFramedWindowBlock(BlockBehaviour.Properties.of()));
 
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block) {

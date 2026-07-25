@@ -1,8 +1,7 @@
 {
   "render_type": "minecraft:cutout",
-  "parent": "minecraft:block/cube_column",
+  "parent": "minecraft:block/cube_all",
   "textures": {
-    "end": "trainpalettes:block/framed_window_mangrove_clear_lr",
-    "side": "trainpalettes:block/framed_window_mangrove_clear_ud"
+    "all": "trainpalettes:block/framed_window_mangrove_clear_ud"
   }
 }
