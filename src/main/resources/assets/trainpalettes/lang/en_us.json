@@ -1,10 +1,65 @@
 {
-  "block.trainpalettes.framed_window_mangrove_clear_4": "Framed Clear Mangrove Window 4",
-  "block.trainpalettes.framed_window_mangrove_clear_1": "Framed Clear Mangrove Window 1",
-  "block.trainpalettes.framed_window_mangrove_clear_2_para": "Framed Clear Mangrove Window 2 Para",
-  "block.trainpalettes.framed_window_mangrove_clear_2_corner": "Framed Clear Mangrove Window 2 Corner",
-  "block.trainpalettes.framed_window_glass_clear": "Clear Framed Window Glass",
-  "block.trainpalettes.framed_window_mangrove_clear_3": "Framed Clear Mangrove Window 3",
+  "block.trainpalettes.framed_window_glass_clear": "Clear Train Window Glass",
+
+  "block.trainpalettes.framed_window_mangrove_clear_1": "Mangrove Clear Train Window (Single Edge)",
+  "block.trainpalettes.framed_window_mangrove_clear_2_para": "Mangrove Clear Train Window (Double Edge)",
+  "block.trainpalettes.framed_window_mangrove_clear_2_corner": "Mangrove Clear Train Window (Corner)",
+  "block.trainpalettes.framed_window_mangrove_clear_3": "Mangrove Clear Train Window (Triple Edge)",
+  "block.trainpalettes.framed_window_mangrove_clear_4": "Mangrove Clear Train Window (All)",
+
+  "block.trainpalettes.framed_window_acacia_clear_1": "Acacia Clear Train Window (Single Edge)",
+  "block.trainpalettes.framed_window_acacia_clear_2_para": "Acacia Clear Train Window (Double Edge)",
+  "block.trainpalettes.framed_window_acacia_clear_2_corner": "Acacia Clear Train Window (Corner)",
+  "block.trainpalettes.framed_window_acacia_clear_3": "Acacia Clear Train Window (Triple Edge)",
+  "block.trainpalettes.framed_window_acacia_clear_4": "Acacia Clear Train Window (All)",
+
+  "block.trainpalettes.framed_window_cherry_clear_1": "Cherry Clear Train Window (Single Edge)",
+  "block.trainpalettes.framed_window_cherry_clear_2_para": "Cherry Clear Train Window (Double Edge)",
+  "block.trainpalettes.framed_window_cherry_clear_2_corner": "Cherry Clear Train Window (Corner)",
+  "block.trainpalettes.framed_window_cherry_clear_3": "Cherry Clear Train Window (Triple Edge)",
+  "block.trainpalettes.framed_window_cherry_clear_4": "Cherry Clear Train Window (All)",
+
+  "block.trainpalettes.framed_window_oak_clear_1": "Oak Clear Train Window (Single Edge)",
+  "block.trainpalettes.framed_window_oak_clear_2_para": "Oak Clear Train Window (Double Edge)",
+  "block.trainpalettes.framed_window_oak_clear_2_corner": "Oak Clear Train Window (Corner)",
+  "block.trainpalettes.framed_window_oak_clear_3": "Oak Clear Train Window (Triple Edge)",
+  "block.trainpalettes.framed_window_oak_clear_4": "Oak Clear Train Window (All)",
+
+  "block.trainpalettes.framed_window_spruce_clear_1": "Spruce Clear Train Window (Single Edge)",
+  "block.trainpalettes.framed_window_spruce_clear_2_para": "Spruce Clear Train Window (Double Edge)",
+  "block.trainpalettes.framed_window_spruce_clear_2_corner": "Spruce Clear Train Window (Corner)",
+  "block.trainpalettes.framed_window_spruce_clear_3": "Spruce Clear Train Window (Triple Edge)",
+  "block.trainpalettes.framed_window_spruce_clear_4": "Spruce Clear Train Window (All)",
+
+  "block.trainpalettes.framed_window_birch_clear_1": "Birch Clear Train Window (Single Edge)",
+  "block.trainpalettes.framed_window_birch_clear_2_para": "Birch Clear Train Window (Double Edge)",
+  "block.trainpalettes.framed_window_birch_clear_2_corner": "Birch Clear Train Window (Corner)",
+  "block.trainpalettes.framed_window_birch_clear_3": "Birch Clear Train Window (Triple Edge)",
+  "block.trainpalettes.framed_window_birch_clear_4": "Birch Clear Train Window (All)",
+
+  "block.trainpalettes.framed_window_jungle_clear_1": "Jungle Clear Train Window (Single Edge)",
+  "block.trainpalettes.framed_window_jungle_clear_2_para": "Jungle Clear Train Window (Double Edge)",
+  "block.trainpalettes.framed_window_jungle_clear_2_corner": "Jungle Clear Train Window (Corner)",
+  "block.trainpalettes.framed_window_jungle_clear_3": "Jungle Clear Train Window (Triple Edge)",
+  "block.trainpalettes.framed_window_jungle_clear_4": "Jungle Clear Train Window (All)",
+
+  "block.trainpalettes.framed_window_dark_oak_clear_1": "Dark Oak Clear Train Window (Single Edge)",
+  "block.trainpalettes.framed_window_dark_oak_clear_2_para": "Dark Oak Clear Train Window (Double Edge)",
+  "block.trainpalettes.framed_window_dark_oak_clear_2_corner": "Dark Oak Clear Train Window (Corner)",
+  "block.trainpalettes.framed_window_dark_oak_clear_3": "Dark Oak Clear Train Window (Triple Edge)",
+  "block.trainpalettes.framed_window_dark_oak_clear_4": "Dark Oak Clear Train Window (All)",
+
+  "block.trainpalettes.framed_window_crimson_clear_1": "Crimson Clear Train Window (Single Edge)",
+  "block.trainpalettes.framed_window_crimson_clear_2_para": "Crimson Clear Train Window (Double Edge)",
+  "block.trainpalettes.framed_window_crimson_clear_2_corner": "Crimson Clear Train Window (Corner)",
+  "block.trainpalettes.framed_window_crimson_clear_3": "Crimson Clear Train Window (Triple Edge)",
+  "block.trainpalettes.framed_window_crimson_clear_4": "Crimson Clear Train Window (All)",
+
+  "block.trainpalettes.framed_window_warped_clear_1": "Warped Clear Train Window (Single Edge)",
+  "block.trainpalettes.framed_window_warped_clear_2_para": "Warped Clear Train Window (Double Edge)",
+  "block.trainpalettes.framed_window_warped_clear_2_corner": "Warped Clear Train Window (Corner)",
+  "block.trainpalettes.framed_window_warped_clear_3": "Warped Clear Train Window (Triple Edge)",
+  "block.trainpalettes.framed_window_warped_clear_4": "Warped Clear Train Window (All)",
 
   "creativetab.trainpalettes.mod_tab": "Create: Train Palettes"
 }

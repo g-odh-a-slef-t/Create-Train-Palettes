@@ -1,16 +1,16 @@
 {
   "variants": {
     "facing=east": {
-      "model": "trainpalettes:block/framed_window_mangrove_clear_ur"
+      "model": "trainpalettes:block/framed_window/mangrove/clear/ur"
     },
     "facing=north": {
-      "model": "trainpalettes:block/framed_window_mangrove_clear_ul"
+      "model": "trainpalettes:block/framed_window/mangrove/clear/ul"
     },
     "facing=south": {
-      "model": "trainpalettes:block/framed_window_mangrove_clear_dr"
+      "model": "trainpalettes:block/framed_window/mangrove/clear/dr"
     },
     "facing=west": {
-      "model": "trainpalettes:block/framed_window_mangrove_clear_dl"
+      "model": "trainpalettes:block/framed_window/mangrove/clear/dl"
     }
   }
 }
