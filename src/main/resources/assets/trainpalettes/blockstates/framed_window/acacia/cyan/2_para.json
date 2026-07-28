@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "trainpalettes:block/framed_window/acacia/cyan/ud"
+    },
+    "facing=north": {
+      "model": "trainpalettes:block/framed_window/acacia/cyan/lr"
+    },
+    "facing=south": {
+      "model": "trainpalettes:block/framed_window/acacia/cyan/lr"
+    },
+    "facing=west": {
+      "model": "trainpalettes:block/framed_window/acacia/cyan/ud"
+    }
+  }
+}

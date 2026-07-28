@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "trainpalettes:block/framed_window/spruce/purple/ud"
+    },
+    "facing=north": {
+      "model": "trainpalettes:block/framed_window/spruce/purple/lr"
+    },
+    "facing=south": {
+      "model": "trainpalettes:block/framed_window/spruce/purple/lr"
+    },
+    "facing=west": {
+      "model": "trainpalettes:block/framed_window/spruce/purple/ud"
+    }
+  }
+}

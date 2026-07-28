@@ -1,0 +1,13 @@
+{
+  "render_type": "minecraft:cutout",
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "down": "trainpalettes:block/framed_window/oak/white/dlu",
+    "east": "trainpalettes:block/framed_window/oak/white/dru",
+    "north": "trainpalettes:block/framed_window/oak/white/dlu",
+    "particle": "trainpalettes:block/framed_window/oak/white/all",
+    "south": "trainpalettes:block/framed_window/oak/white/dru",
+    "up": "trainpalettes:block/framed_window/oak/white/dru",
+    "west": "trainpalettes:block/framed_window/oak/white/dlu"
+  }
+}

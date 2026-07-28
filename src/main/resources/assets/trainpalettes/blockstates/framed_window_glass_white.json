@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "trainpalettes:block/framed_window_glass_white"
+    },
+    "facing=north": {
+      "model": "trainpalettes:block/framed_window_glass_white"
+    },
+    "facing=south": {
+      "model": "trainpalettes:block/framed_window_glass_white"
+    },
+    "facing=west": {
+      "model": "trainpalettes:block/framed_window_glass_white"
+    }
+  }
+}

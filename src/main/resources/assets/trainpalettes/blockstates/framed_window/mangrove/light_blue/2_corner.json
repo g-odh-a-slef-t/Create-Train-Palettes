@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "trainpalettes:block/framed_window/mangrove/light_blue/ur"
+    },
+    "facing=north": {
+      "model": "trainpalettes:block/framed_window/mangrove/light_blue/ul"
+    },
+    "facing=south": {
+      "model": "trainpalettes:block/framed_window/mangrove/light_blue/dr"
+    },
+    "facing=west": {
+      "model": "trainpalettes:block/framed_window/mangrove/light_blue/dl"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "trainpalettes:block/framed_window/oak/orange/dru"
+    },
+    "facing=north": {
+      "model": "trainpalettes:block/framed_window/oak/orange/rul"
+    },
+    "facing=south": {
+      "model": "trainpalettes:block/framed_window/oak/orange/rdl"
+    },
+    "facing=west": {
+      "model": "trainpalettes:block/framed_window/oak/orange/dlu"
+    }
+  }
+}

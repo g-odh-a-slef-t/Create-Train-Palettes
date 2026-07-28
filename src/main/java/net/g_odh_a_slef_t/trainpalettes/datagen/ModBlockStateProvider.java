@@ -48,6 +48,102 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockItem(ModBlocks.FRAMED_WINDOW_ACACIA_CLEAR_3);
         blockItem(ModBlocks.FRAMED_WINDOW_ACACIA_CLEAR_4);
 
+        blockItem(ModBlocks.FRAMED_WINDOW_ACACIA_RED_1);
+        blockItem(ModBlocks.FRAMED_WINDOW_ACACIA_RED_2_PARA);
+        blockItem(ModBlocks.FRAMED_WINDOW_ACACIA_RED_2_CORNER);
+        blockItem(ModBlocks.FRAMED_WINDOW_ACACIA_RED_3);
+        blockItem(ModBlocks.FRAMED_WINDOW_ACACIA_RED_4);
+
+        blockItem(ModBlocks.FRAMED_WINDOW_ACACIA_ORANGE_1);
+        blockItem(ModBlocks.FRAMED_WINDOW_ACACIA_ORANGE_2_PARA);
+        blockItem(ModBlocks.FRAMED_WINDOW_ACACIA_ORANGE_2_CORNER);
+        blockItem(ModBlocks.FRAMED_WINDOW_ACACIA_ORANGE_3);
+        blockItem(ModBlocks.FRAMED_WINDOW_ACACIA_ORANGE_4);
+
+        blockItem(ModBlocks.FRAMED_WINDOW_ACACIA_YELLOW_1);
+        blockItem(ModBlocks.FRAMED_WINDOW_ACACIA_YELLOW_2_PARA);
+        blockItem(ModBlocks.FRAMED_WINDOW_ACACIA_YELLOW_2_CORNER);
+        blockItem(ModBlocks.FRAMED_WINDOW_ACACIA_YELLOW_3);
+        blockItem(ModBlocks.FRAMED_WINDOW_ACACIA_YELLOW_4);
+
+        blockItem(ModBlocks.FRAMED_WINDOW_ACACIA_LIME_1);
+        blockItem(ModBlocks.FRAMED_WINDOW_ACACIA_LIME_2_PARA);
+        blockItem(ModBlocks.FRAMED_WINDOW_ACACIA_LIME_2_CORNER);
+        blockItem(ModBlocks.FRAMED_WINDOW_ACACIA_LIME_3);
+        blockItem(ModBlocks.FRAMED_WINDOW_ACACIA_LIME_4);
+
+        blockItem(ModBlocks.FRAMED_WINDOW_ACACIA_GREEN_1);
+        blockItem(ModBlocks.FRAMED_WINDOW_ACACIA_GREEN_2_PARA);
+        blockItem(ModBlocks.FRAMED_WINDOW_ACACIA_GREEN_2_CORNER);
+        blockItem(ModBlocks.FRAMED_WINDOW_ACACIA_GREEN_3);
+        blockItem(ModBlocks.FRAMED_WINDOW_ACACIA_GREEN_4);
+
+        blockItem(ModBlocks.FRAMED_WINDOW_ACACIA_CYAN_1);
+        blockItem(ModBlocks.FRAMED_WINDOW_ACACIA_CYAN_2_PARA);
+        blockItem(ModBlocks.FRAMED_WINDOW_ACACIA_CYAN_2_CORNER);
+        blockItem(ModBlocks.FRAMED_WINDOW_ACACIA_CYAN_3);
+        blockItem(ModBlocks.FRAMED_WINDOW_ACACIA_CYAN_4);
+
+        blockItem(ModBlocks.FRAMED_WINDOW_ACACIA_LIGHT_BLUE_1);
+        blockItem(ModBlocks.FRAMED_WINDOW_ACACIA_LIGHT_BLUE_2_PARA);
+        blockItem(ModBlocks.FRAMED_WINDOW_ACACIA_LIGHT_BLUE_2_CORNER);
+        blockItem(ModBlocks.FRAMED_WINDOW_ACACIA_LIGHT_BLUE_3);
+        blockItem(ModBlocks.FRAMED_WINDOW_ACACIA_LIGHT_BLUE_4);
+
+        blockItem(ModBlocks.FRAMED_WINDOW_ACACIA_BLUE_1);
+        blockItem(ModBlocks.FRAMED_WINDOW_ACACIA_BLUE_2_PARA);
+        blockItem(ModBlocks.FRAMED_WINDOW_ACACIA_BLUE_2_CORNER);
+        blockItem(ModBlocks.FRAMED_WINDOW_ACACIA_BLUE_3);
+        blockItem(ModBlocks.FRAMED_WINDOW_ACACIA_BLUE_4);
+
+        blockItem(ModBlocks.FRAMED_WINDOW_ACACIA_PURPLE_1);
+        blockItem(ModBlocks.FRAMED_WINDOW_ACACIA_PURPLE_2_PARA);
+        blockItem(ModBlocks.FRAMED_WINDOW_ACACIA_PURPLE_2_CORNER);
+        blockItem(ModBlocks.FRAMED_WINDOW_ACACIA_PURPLE_3);
+        blockItem(ModBlocks.FRAMED_WINDOW_ACACIA_PURPLE_4);
+
+        blockItem(ModBlocks.FRAMED_WINDOW_ACACIA_MAGENTA_1);
+        blockItem(ModBlocks.FRAMED_WINDOW_ACACIA_MAGENTA_2_PARA);
+        blockItem(ModBlocks.FRAMED_WINDOW_ACACIA_MAGENTA_2_CORNER);
+        blockItem(ModBlocks.FRAMED_WINDOW_ACACIA_MAGENTA_3);
+        blockItem(ModBlocks.FRAMED_WINDOW_ACACIA_MAGENTA_4);
+
+        blockItem(ModBlocks.FRAMED_WINDOW_ACACIA_PINK_1);
+        blockItem(ModBlocks.FRAMED_WINDOW_ACACIA_PINK_2_PARA);
+        blockItem(ModBlocks.FRAMED_WINDOW_ACACIA_PINK_2_CORNER);
+        blockItem(ModBlocks.FRAMED_WINDOW_ACACIA_PINK_3);
+        blockItem(ModBlocks.FRAMED_WINDOW_ACACIA_PINK_4);
+
+        blockItem(ModBlocks.FRAMED_WINDOW_ACACIA_WHITE_1);
+        blockItem(ModBlocks.FRAMED_WINDOW_ACACIA_WHITE_2_PARA);
+        blockItem(ModBlocks.FRAMED_WINDOW_ACACIA_WHITE_2_CORNER);
+        blockItem(ModBlocks.FRAMED_WINDOW_ACACIA_WHITE_3);
+        blockItem(ModBlocks.FRAMED_WINDOW_ACACIA_WHITE_4);
+
+        blockItem(ModBlocks.FRAMED_WINDOW_ACACIA_LIGHT_GRAY_1);
+        blockItem(ModBlocks.FRAMED_WINDOW_ACACIA_LIGHT_GRAY_2_PARA);
+        blockItem(ModBlocks.FRAMED_WINDOW_ACACIA_LIGHT_GRAY_2_CORNER);
+        blockItem(ModBlocks.FRAMED_WINDOW_ACACIA_LIGHT_GRAY_3);
+        blockItem(ModBlocks.FRAMED_WINDOW_ACACIA_LIGHT_GRAY_4);
+
+        blockItem(ModBlocks.FRAMED_WINDOW_ACACIA_GRAY_1);
+        blockItem(ModBlocks.FRAMED_WINDOW_ACACIA_GRAY_2_PARA);
+        blockItem(ModBlocks.FRAMED_WINDOW_ACACIA_GRAY_2_CORNER);
+        blockItem(ModBlocks.FRAMED_WINDOW_ACACIA_GRAY_3);
+        blockItem(ModBlocks.FRAMED_WINDOW_ACACIA_GRAY_4);
+
+        blockItem(ModBlocks.FRAMED_WINDOW_ACACIA_BLACK_1);
+        blockItem(ModBlocks.FRAMED_WINDOW_ACACIA_BLACK_2_PARA);
+        blockItem(ModBlocks.FRAMED_WINDOW_ACACIA_BLACK_2_CORNER);
+        blockItem(ModBlocks.FRAMED_WINDOW_ACACIA_BLACK_3);
+        blockItem(ModBlocks.FRAMED_WINDOW_ACACIA_BLACK_4);
+
+        blockItem(ModBlocks.FRAMED_WINDOW_ACACIA_BROWN_1);
+        blockItem(ModBlocks.FRAMED_WINDOW_ACACIA_BROWN_2_PARA);
+        blockItem(ModBlocks.FRAMED_WINDOW_ACACIA_BROWN_2_CORNER);
+        blockItem(ModBlocks.FRAMED_WINDOW_ACACIA_BROWN_3);
+        blockItem(ModBlocks.FRAMED_WINDOW_ACACIA_BROWN_4);
+
         // Cherry
         blockItem(ModBlocks.FRAMED_WINDOW_CHERRY_CLEAR_1);
         blockItem(ModBlocks.FRAMED_WINDOW_CHERRY_CLEAR_2_PARA);
